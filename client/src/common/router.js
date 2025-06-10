@@ -17,6 +17,10 @@ let routes = [
         path: "/dashboard/article",
         component: () => import("../views/dashboard/Article.vue"),
       },
+      {
+        path: "/dashboard/comment",
+        component: () => import("../views/dashboard/Comment.vue"),
+      },
     ],
   },
 ];

@@ -57,6 +57,7 @@ app.use("/admin", require("./routers/AdminRouter"));
 app.use("/category", require("./routers/CategoryRouter"));
 app.use("/blog", require("./routers/BlogRouter"));
 app.use("/upload", require("./routers/UploadRouter"));
+app.use("/comment", require("./routers/CommentRouter"));
 
 app.get("/", (req, res) => {
   res.send("hello,world");

@@ -22,5 +22,24 @@ const login = async () => {
   console.log(res);
 };
 
+let a = [1, 2, 3, 4, 5];
+for (let ch of a) {
+  console.log(ch);
+}
+
+const say = () => {
+  console.log("111");
+  console.log("222");
+  log();
+  console.log("555");
+};
+
+const log = () => {
+  console.log("333");
+  console.log("444");
+};
+
+say();
+
 login();
 </script>

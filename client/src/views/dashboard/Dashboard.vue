@@ -32,6 +32,10 @@ let menus = [
   },
   { name: "分类管理", href: "/dashboard/category" },
   {
+    name: "评论管理",
+    href: "/dashboard/comment",
+  },
+  {
     name: "退出",
     href: "logout",
   },

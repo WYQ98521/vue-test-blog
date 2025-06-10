@@ -9,7 +9,7 @@ import naive from "naive-ui";
 import { createDiscreteApi } from "naive-ui";
 import { AdminStore } from "./stores/AdminStore";
 
-// axios.defaults.baseURL = "http://localhost:8080";
+axios.defaults.baseURL = "http://localhost:8080";
 const { message, notification, dialog } = createDiscreteApi([
   "message",
   "dialog",
